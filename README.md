@@ -66,3 +66,4 @@
 * [Wordbatch FTRL+FM+TF](https://www.kaggle.com/shujian/wordbatch-ftrl-fm-tf?scriptVersionId=2346895): Public Score 0.41803
     * [Wordbatch FTRL+FM+LGB](https://www.kaggle.com/serigne/wordbatch-ftrl-fm-lgb-lb-0-424xx?scriptVersionId=2266455): Public Score 0.42497
     * [Tensorflow starter: conv1d + emb](https://www.kaggle.com/lscoelho/tensorflow-starter-conv1d-emb-0-43839-lb-v08?scriptVersionId=2084098): Public Score 0.43839
+* [Wordbatch FTRL+FM+TF+new features](https://www.kaggle.com/shujian/wordbatch-ftrl-fm-tf-new-features?scriptVersionId=2399393): Public Score 0.41658    

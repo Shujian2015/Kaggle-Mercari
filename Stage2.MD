@@ -19,3 +19,4 @@ Other discussions:
 
 Other usefull links:
 * [Dummy variables when not all categories are present](https://stackoverflow.com/questions/37425961/dummy-variables-when-not-all-categories-are-present/37451867#37451867)
+* [Chunks](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/48378#279887)

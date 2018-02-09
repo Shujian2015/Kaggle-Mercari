@@ -16,3 +16,6 @@ Other discussions:
 * [Asking for a stage 2 Rehearsal](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/45212)
 * [Memory Might Be The Major Problem in Phase 2](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/45813)
 * [Prepare for stage 2](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/48784)
+
+Other usefull links:
+* [Dummy variables when not all categories are present](https://stackoverflow.com/questions/37425961/dummy-variables-when-not-all-categories-are-present/37451867#37451867)

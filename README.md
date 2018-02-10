@@ -25,16 +25,18 @@
 * Average of word embeddings: Lookup all words in Word2vec and take the average of them. [paper](https://www.cs.umd.edu/~miyyer/pubs/2015_acl_dan.pdf), [Github](https://github.com/miyyer/dan) [Quora](https://www.quora.com/How-do-I-compute-accurate-sentence-vectors-from-Word2Vec-tool)
 * Better way to remove stop word [cached](https://stackoverflow.com/questions/19560498/faster-way-to-remove-stop-words-in-python)
 * [Reduce TF time](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/48378#274654)
-* Rewrite the code: 
-    * "without merge(fitting on train and transforming on test) my CV and LB loss increased by 0.009. I can't figure out the reason." [Link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/47295#278283)
-    * Test set into batches. [link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/47167#271807)
-    * Better val set for TF
+
 
 ***
 
 # Tricks
 
 * Stage 2: [1](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/43948), [2](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/45212), [Mine](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/49150)
+
+* Rewrite the code: 
+    * "without merge(fitting on train and transforming on test) my CV and LB loss increased by 0.009. I can't figure out the reason." [Link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/47295#278283)
+    * Test set into batches. [link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/47167#271807)
+    * Better val set for TF
 
 ***
 

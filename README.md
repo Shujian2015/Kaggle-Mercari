@@ -1,4 +1,21 @@
 # Kaggle-Mercari
+    
+***
+
+# Ideas/things to do
+
+* One dimmensionfor item_condition: https://www.kaggle.com/nvhbk16k53/associated-model-rnn-ridge/versions#base=2256015&new=2410057
+* Drop price = 0 or < 3
+* Tune: iters for FM and FTRL
+* Tune: dropout/FC layers
+* Use averaged GloVe for TF    
+* Other features for TF: [Quora solutions](https://www.kaggle.com/c/quora-question-pairs/discussion/34325)
+    * [No 1](https://www.kaggle.com/c/quora-question-pairs/discussion/34355):  Number of capital letters, question marks etc...
+    * [No 3](https://www.kaggle.com/c/quora-question-pairs/discussion/34288): We used TFIDF and LSA distances, word co-occurrence measures (pointwise mutual information), word matching measures, fuzzy word matching measures (edit distance, character ngram distances, etc), LDA, word2vec distances, part of speech and named entity features, and some other minor features. These features were mostly recycled from a previous NLP competition, and were not nearly as essential in this competition.
+    * [No 8](https://www.kaggle.com/c/quora-question-pairs/discussion/34371) -> a lot
+
+    
+***
 
 # Useful features
 
@@ -8,8 +25,10 @@
 * Average of word embeddings: Lookup all words in Word2vec and take the average of them. [paper](https://www.cs.umd.edu/~miyyer/pubs/2015_acl_dan.pdf), [Github](https://github.com/miyyer/dan) [Quora](https://www.quora.com/How-do-I-compute-accurate-sentence-vectors-from-Word2Vec-tool)
 * Better way to remove stop word [cached](https://stackoverflow.com/questions/19560498/faster-way-to-remove-stop-words-in-python)
 * [Reduce TF time](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/48378#274654)
-
-
+* Rewrite the code: 
+    * "without merge(fitting on train and transforming on test) my CV and LB loss increased by 0.009. I can't figure out the reason." [Link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/47295#278283)
+    * Test set into batches. [link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/47167#271807)
+    * Better val set for TF
 
 ***
 
@@ -43,18 +62,6 @@
 
 ***
 
-# Ideas
-
-* Rewrite the code: 
-    * "without merge(fitting on train and transforming on test) my CV and LB loss increased by 0.009. I can't figure out the reason." [Link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/47295#278283)
-    * Test set into batches. [link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/47167#271807)
-    * Better val set for TF
-* Tune: dropout/FC layers
-* Use averaged GloVe for TF
-* Other features for TF: [Quora solutions](https://www.kaggle.com/c/quora-question-pairs/discussion/34325)
-    * [No 1](https://www.kaggle.com/c/quora-question-pairs/discussion/34355):  Number of capital letters, question marks etc...
-    * [No 3](https://www.kaggle.com/c/quora-question-pairs/discussion/34288): We used TFIDF and LSA distances, word co-occurrence measures (pointwise mutual information), word matching measures, fuzzy word matching measures (edit distance, character ngram distances, etc), LDA, word2vec distances, part of speech and named entity features, and some other minor features. These features were mostly recycled from a previous NLP competition, and were not nearly as essential in this competition.
-    * [No 8](https://www.kaggle.com/c/quora-question-pairs/discussion/34371) -> a lot
 
 ## Tried:
 

@@ -5,7 +5,7 @@
 # Ideas/things to do
 
 * One dimmensionfor item_condition: https://www.kaggle.com/nvhbk16k53/associated-model-rnn-ridge/versions#base=2256015&new=2410057
-* Drop price = 0 or < 3
+* Drop price = 0 or < 3 ([link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/44040), [link](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/45066))
 * Tune: iters for FM and FTRL
 * Tune: dropout/FC layers
 * Use averaged GloVe for TF    

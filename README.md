@@ -5,18 +5,8 @@
 # Ideas/things to do
 
 
-* Feb 12 - Top matters:
-    * Weights of 3 models
-    * [FastText](https://www.kaggle.com/nzw0301/simple-keras-fasttext-val-loss-0-31): 1-2 gram
-    * [TF dataset](https://towardsdatascience.com/how-to-use-dataset-in-tensorflow-c758ef9e4428)    
+* 
 
-* Feb 13: tune models: [My model improves from 0.433 to 0.410 with these attempts](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/49430#280947):
-    * . Scale numerical inputs (if you have any)
-    * 2. Add a BatchNormalization layer
-    * 3. Try different combinations of activations
-    * 4. Change the optimizer (A fine-tuned Adam greatly improves my model!)
-    * 5. Change the kernel initializers and bias initializers
-    * 6. Try different combinations of batchsize (e.g. an epoch with large batchsize + an epoch with small batchsize)
 
     
 ***
@@ -63,6 +53,9 @@
 * [Surpass 0.40000](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/48378)
 * [LB shake up](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/48629#277733)
 * CNN or RNN: [Best single model](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/47167)
+* [FastText](https://www.kaggle.com/nzw0301/simple-keras-fasttext-val-loss-0-31): 1-2 gram
+* [TF dataset](https://towardsdatascience.com/how-to-use-dataset-in-tensorflow-c758ef9e4428)
+* [My model improves from 0.433 to 0.410 with these attempts](https://www.kaggle.com/c/mercari-price-suggestion-challenge/discussion/49430#280947):
 
 
 ## Top players

@@ -1,5 +1,7 @@
 # Kaggle-Mercari
     
+/src/PlanB.py score 0.40957 on private leaderboard, with the ranking of 32.    
+    
 ***
 
 # Ideas/things to do

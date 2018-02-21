@@ -1,6 +1,6 @@
 # Kaggle-Mercari
     
-/src/PlanB.py score 0.40957 on private leaderboard, with the ranking of 32.    
+[./src/PlanB.py](https://github.com/Shujian2015/Kaggle-Mercari/blob/master/src/PlanB.py) score 0.40957 on private [leaderboard](https://www.kaggle.com/c/mercari-price-suggestion-challenge/leaderboard), with the ranking of 32 among 2384 teams.    
     
 ***
 
